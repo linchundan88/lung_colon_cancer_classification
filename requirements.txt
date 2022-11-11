@@ -1,0 +1,31 @@
+pandas >= 1.2.2
+opencv-python >= 4.1
+albumentations >= 0.5.2
+torch >= 1.9    # using torch.inference_mode()
+# torchvision >= 0.8.2
+timm >= 0.4
+matplotlib >= 3.3.4
+seaborn >= 0.11
+scikit-learn >= 0.24.1
+tqdm >= 4.0
+munch >=1.16  # dict dot operator
+#torch-optimizer >= 0.3.0
+
+
+
+# pip install git+https://github.com/ildoonet/pytorch-gradual-warmup-lr.git
+
+#
+# torch-optimizer >= 0.2  #https://github.com/jettify/pytorch-optimizer
+#
+# pip install vit-pytorch
+# torchmetrics >= 0.9
+# conda install pytorch torchvision torchaudio cudatoolkit=11.3 -c pytorch
+#conda install pytorch==1.10.1 torchvision==0.11.2 torchaudio==0.10.1 cudatoolkit=11.3 -c pytorch -c conda-forge
+#pip install -i https://mirrors.aliyun.com/pypi/simple/   torch torchvision
+# pip install medcam
+# pip install -i https://mirrors.aliyun.com/pypi/simple/  pandas scikit-learn mysqlclient openpyxl xlwt    matplotlib  seaborn imgaug  albumentations  torchio captum pretrainedmodels tensorboard
+# pip install torch_optimizer timm
+
+
+#pip install torch-tensorrt -f https://github.com/pytorch/TensorRT/releases

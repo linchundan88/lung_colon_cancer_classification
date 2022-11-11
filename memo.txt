@@ -1,0 +1,18 @@
+
+#clear memory cache
+#sudo sh -c "echo 1 > /proc/sys/vm/drop_caches"
+
+Allow SyncBatchNorm without DDP in inference mode #24815
+
+
+
+
+During fine-tuning, we decay the learning rate by a factor of 10 at 30%, 60% and 90% of the training steps
+
+
+Big Transfer (BiT): General Visual Representation Learning
+
+
+
+
+
