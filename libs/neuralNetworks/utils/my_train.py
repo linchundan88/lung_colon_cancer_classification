@@ -201,7 +201,8 @@ def train_DP(config):
             script_model = torch.jit.script(model1)
             script_model.save(save_model_file)
 
-    pickle.dump(list_loss_history, open(str(losses_pkl), 'wb'))
+    pickle.dump(list_loss_history, open(losses_pkl, 'wb'))
+
 
 
 def _train_one_epoch(epoch, model, dataloader, criterion, optimizer, scheduler, scheduler_mode, use_amp, rank=None):

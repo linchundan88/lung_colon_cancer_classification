@@ -20,7 +20,7 @@ parser.add_argument('--lr', type=float, default=0.0001)  # 0.001 or 0.0001
 # parser.add_argument('--step_size', type=int, default=4)
 parser.add_argument('--batch_size', type=int, default=64)
 #recommend num_workers = the number of gpus * 4, when debugging it should be set to 0.
-parser.add_argument('--num_workers', type=int, default=0)
+parser.add_argument('--num_workers', type=int, default=8)
 parser.add_argument('--torch_script', action='store_true')  # before saving a model, using torch script JIT to compile the model.
 parser.add_argument('--save_only_state_dict', default=True)
 parser.add_argument('--path_save', default='/tmp2')

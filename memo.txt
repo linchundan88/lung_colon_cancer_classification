@@ -16,3 +16,7 @@ Big Transfer (BiT): General Visual Representation Learning
 
 
 
+Using git large file storage to store model files
+
+
+git lfs track "*.pth"
